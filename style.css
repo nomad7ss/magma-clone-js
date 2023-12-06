@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+@font-face {
+    font-family: first;
+    src: url(./fonts/jostvariable.ttf);
+}
+@font-face {
+    font-family: second;
+    src: url(./fonts/second.ttf);
+}
+@font-face {
+    font-family: third;
+    src: url(./fonts/third.ttf);
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 10vh;
+    width: 100vw;
+}
+#page1>nav>img{
+    margin-top: 4vh;
+    margin-left: 2vw;
+    width: 4.5%;
+}
+#rightnav button{
+    height: 40px;
+    width: 130px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: rgb(12, 64, 219);
+    border: .1px solid rgba(136, 136, 136, 0.733);
+    color: #fff;
+    font-family: first;
+    font-size: 14px;
+}
+.bottompage1{
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    left: 9%;
+    bottom: 5%;
+}
+.bottompage1>h1{
+    font-family: first;
+    font-size: 6.4vw;
+    font-weight: 100;
+    line-height: 1;
+    color: #fff;
+}
+.bottompage1-inner{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0%;
+    height: 33%;
+    width: 80%;
+    align-items: center;
+}
+.bottompage1-inner>button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    font-family: first;
+    font-size: 14px;
+    background-color: #fff;
+    color: #0934dd;
+}
+.bottompage1-inner>h3{
+    font-family: third;
+    font-weight: 100;
+    color: #fff;
+}
+#page2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: first;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    position: relative;
+    color: #fff;
+    padding: 0 9vw;
+}
+#page2>h3{
+    margin-bottom: 4vh;
+    font-weight: 100;
+}
+#page2>h1{
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 1.2;
+    width: 90%;
+    color: #ffffff66;
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
